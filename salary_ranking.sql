@@ -1,1 +1,0 @@
-select * from employees WHERE SALARY = (SELECT SALARY FROM employees ORDER BY SALARY DESC LIMIT 2 , 1);
